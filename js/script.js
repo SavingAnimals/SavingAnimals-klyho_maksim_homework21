@@ -21,7 +21,7 @@ function task4(e) {
     e.preventDefault();
     let circleR = document.getElementById("circleR").value;
     let p = 3.14;
-    document.getElementById("circleLenght").value = (p * circleR) * (p * circleR);
+    document.getElementById("circleLenght").value = p * (circleR * circleR);
 }
 
 function task5(e) {
